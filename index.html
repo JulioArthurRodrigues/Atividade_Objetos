@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+    <title>Equipamentos</title>
+</head>
+<body>
+    <form class="button">
+        <fieldset>
+          <legend>Equipamentos:</legend>
+           <label for="código">Código:</label>
+           <input type="text" id="codigo" name="codigo"><br><br>
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" name="nome"><br><br>
+           <label for="preço">Preço:</label>
+           <input type="text" id="preco" name="preco"><br><br>
+           <input type="button" value="Adicionar" class="button" onclick="AddEquipamento()">
+           <input type="button" value="Exibir" class="button" onclick="ViewEquipamento()"><br><br>
+           <input type="button" value="Exibir Nomes dos Equipamentos" class="button" onclick="ViewName()">
+           <input type="button" value="Atualizar Preços" class="button" onclick="UpdatePrecos()">
+        </fieldset>
+    </form>
+</body>
+</html>
